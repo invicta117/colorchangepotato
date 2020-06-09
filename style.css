@@ -4,9 +4,9 @@
 }
 
 body {
-    --r: 0;
-    --g: 0;
-    --b: 0;
+    --r: 255;
+    --g: 255;
+    --b: 255;
     background: rgba(var(--r), var(--g), var(--b));
   }
 
@@ -17,8 +17,14 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    --r: 0;
-    --g: 0;
-    --b: 0;
-    background: rgba(var(--r), var(--g), var(--b));
   }
+
+.banner {
+    position: center;
+    margin-top: 100px;
+    font-size: x-large;
+}
+
+h2{
+    text-align: center;
+}
